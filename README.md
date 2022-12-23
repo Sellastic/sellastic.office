@@ -6,6 +6,11 @@
 
 ### Open Source Touch Screen Point-of-Sale Office Backend Application
 
+#### Integrated Inventory Management
+
+Real-time control and accurate forecasts to manage procurements.
+Sellastic Office application automatically inputs any transaction from the POS in the store. You can see the stock status of the products in real time without wasting time. You need to easily set-up stock for your e-commerce and become a truly omnichannel business with no headaches.
+
 The application is indented to respond to the needs of retail stores, fast-food restaurants as well as of a chain of restaurants. It includes the features to manage daily sales operations as well as a customized view for managers and authorized staff to track statistics, update prices and products. It has a user-friendly interface, mainly oriented to using screen and minimum keyboard input, very easy to use and It provides a lot of flexibility and maintainability. It is designed as that expansion might happen. 
 
 It has modules for easily integrate it to different payment systems, loyalty systems, printers and backend systems.
@@ -19,7 +24,7 @@ It has modules for easily integrate it to different payment systems, loyalty sys
 > ##### Software Requirements
 >
 > - Python 3.11
-> - Django 4.1.3
+> - Django 4.1.4
 >
 > #### Supported Database Engines
 >
