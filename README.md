@@ -19,7 +19,7 @@ It has modules for easily integrate it to different payment systems, loyalty sys
 >
 > ##### Hardware Requirements
 >
-> - Linux/Windows supported Touch Screen Devices
+> - Linux/Windows/MacOS supported Devices
 >
 > ##### Software Requirements
 >
