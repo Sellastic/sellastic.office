@@ -1,0 +1,32 @@
+{% extends 'home/base.html' %}
+
+{% load static %}
+
+{% block page_content %}
+<div class="right_col right_col_exchange" role="main">
+    <div class="exchange-section data_background text-center"
+         data-background="{% static 'images/landing-background.png' %}">
+        <h1 class="text-center">We aim and hope to help businesses with the open source free "Point of Sales" system.</h1>
+        <p class="text-center">Point-of-Sales is a critical part of today's business, It's where the retail transaction is completed. The process has to be smooth and fast to ensure customer satisfaction and it has to be optimized to help the business keep track of its resources.</p>
+    </div>
+    <div class="clearfix"></div>
+    <div class="spacer_30"></div>
+    <div class="margin_left_right_30">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4">
+                <div class="panel panel-default exchange">
+                    <div class="panel-body">
+                        <h3><i class="fa fa-angle-double-right" aria-hidden="true"></i> Transactions</h3>
+                        <div class="row">
+                            <div class="col-md-6">Total <span
+                                    class="text-info">$1000.04</span></div>
+                            <div class="col-md-6 text-right text-success">+1.35%</div>
+                        </div>
+                        <div class="highchart_currency" id="chart_btc"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

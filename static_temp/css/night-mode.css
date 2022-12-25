@@ -1,0 +1,394 @@
+.night-mood-background .burger span,
+.night-mood-background .burger-nav #menu_toggle:hover,
+.night-mood-background .top_nav .nav .megamenu-trigger:hover,
+.night-mood-background .top_nav .nav .dropdown > a:hover,
+.night-mood-background .megamenu-dropdown-content a:hover,
+.night-mood-background .megamenu-dropdown-content a.is-active,
+.night-mood-background .megamenu-dropdown-content .megamenu-dropdown-icons .megamenu-dropdown-item:hover,
+.night-mood-background .top_nav .dropdown-menu > li > a:hover,
+.night-mood-background .cd-timeline-content .cd-read-more,
+.night-mood-background .panel.panel-default.counter-transactions-v2,
+.night-mood-background .top_nav .navbar-right > li > a:hover,
+.night-mood-background .mail-option .top_nav .dropdown-menu > li:hover,
+.night-mood-background .mail-option .top_nav .dropdown-menu > li:hover a,
+.night-mood-background li a.np-btn:hover,
+.night-mood-background .button-night-mode:hover {
+	background-color: #fff;
+}
+body.night-mood-background .container.body .right_col,
+.night-mood-background .nav_menu,
+.night-mood-background .megamenu-dropdown-content a, 
+.night-mood-background .megamenu-dropdown-content ul a,
+.night-mood-background .top_nav .dropdown-menu > li > a,
+.night-mood-background .st-menu,
+.night-mood-background #menu1,
+.night-mood-background ul.msg_list li,
+.night-mood-background .exchange-calculator input,
+.night-mood-background .cd-timeline-content .cd-read-more:hover,
+.night-mood-background .stepper .active .round-tab,
+.night-mood-background .stepper .nav-tabs > li::after,
+.night-mood-background .stepper .disabled .round-tab,
+.night-mood-background.all-pages,
+.night-mood-background .amChartsInputField.amcharts-start-date-input,
+.night-mood-background .amChartsInputField.amcharts-end-date-input,
+.night-mood-background .amChartsButton.amcharts-period-input,
+.night-mood-background .mail-option .top_nav .dropdown-menu li {
+	background-color: #252525;
+}
+.night-mood-background h1,
+.night-mood-background h2,
+.night-mood-background h3,
+.night-mood-background h4,
+.night-mood-background h5,
+.night-mood-background h6,
+.night-mood-background .col-md-6,
+.night-mood-background .megamenu-dropdown-trigger,
+.night-mood-background .dropdown-menu-1.dropdown a,
+.night-mood-background .megamenu-dropdown-content a, 
+.night-mood-background .megamenu-dropdown-content ul a,
+.night-mood-background .top_nav .navbar-right li > a > i,
+.night-mood-background .st-menu p,
+.night-mood-background .st-menu.st-effect .close-sidebar,
+.night-mood-background .dropdown-menu > li > a,
+.night-mood-background .exchange-calculator input,
+.night-mood-background .select2-container--default .select2-selection--single .select2-selection__rendered,
+.night-mood-background .btn-default:hover,
+.night-mood-background .panel-default .panel-heading h3,
+.night-mood-background .panel-default .panel-heading h3 a,
+.night-mood-background .table > thead > tr > th,
+.night-mood-background .pull-right,
+.night-mood-background label,
+.night-mood-background #dashboard-v1 .dataTables_info, 
+.night-mood-background #dashboard-v2 .dataTables_info,
+.night-mood-background #dashboard-v1 .btc-table tr td:first-child,
+.night-mood-background .breadcrumb a,
+.night-mood-background .breadcrumb li,
+.night-mood-background table th,
+.night-mood-background .tables-top-gainers-losers table th,
+.night-mood-background .dark_title,
+.night-mood-background .cd-timeline-content .cd-read-more:hover,
+.night-mood-background .scale,
+.night-mood-background .new-progress-line .history,
+.night-mood-background .ico-details p,
+.night-mood-background .ico-listing-type, 
+.night-mood-background .ico-listing-days-left,
+.night-mood-background .cd-filter-block .panel-default .panel-heading h4,
+.night-mood-background .cd-tab-filter a,
+.night-mood-background .cd-filter-block h4,
+.night-mood-background .members_img_holder .member01_name,
+.night-mood-background .dataTables_wrapper .dataTables_info#user_table_info,
+.night-mood-background #user_table h4.text-bold,
+.night-mood-background .section2 ul li,
+.night-mood-background .section3 p,
+.night-mood-background .panel-default.search-page .panel-heading,
+.night-mood-background .address-section table tbody tr td,
+.night-mood-background .fist-panel.panel.panel-default p,
+.night-mood-background .fc-toolbar h2,
+.night-mood-background .list-group-item,
+.night-mood-background .panel-body,
+.night-mood-background .panel-default .panel-heading,
+.night-mood-background .panel-default .panel-footer,
+.night-mood-background .close,
+.night-mood-background .pricing--pema .pricing__title,
+.night-mood-background .pricing--pema .pricing__item,
+.night-mood-background .post-details p span
+.night-mood-background .chart-section1 .panel-default .panel-heading,
+.night-mood-background .container.icons .show-code,
+.night-mood-background .icons h2,
+.night-mood-background .text-muted,
+.night-mood-background .panel-body p,
+.night-mood-background .table > tbody > tr > td,
+.night-mood-background #dashboard-v2 .panel-body tr td small, 
+.night-mood-background #dashboard-v2 .panel-body tr td p,
+.night-mood-background .post-details p span,
+.night-mood-background .panel-title > a.accordion-toggle,
+.night-mood-background .faq-header [data-toggle="collapse"].collapsed::after,
+.night-mood-background .faq-header [data-toggle="collapse"]::after,
+.night-mood-background .details-token .btn-success h4,
+.night-mood-background .pannel-landing-page .btn-default,
+.night-mood-background .cd-gallery .cd-fail-message,
+.night-mood-background .pricing-tables-live .background-black,
+.night-mood-background .pricing-tables-live .background-black p,
+.night-mood-background #dataTable_crypto td p,
+.night-mood-background .amChartsPeriodSelector.amcharts-period-selector-div fieldset,
+.night-mood-background .button-night-mode,
+.night-mood-background .megamenu-dropdown-content .megamenu-dropdown-icons .megamenu-dropdown-item h3,
+.night-mood-background .mail-box .sm-side .user-head,
+.night-mood-background ul.inbox-nav li a,
+.night-mood-background ul.inbox-nav li a i,
+.night-mood-background ul.labels-info li a,
+.night-mood-background .sr-input,
+.night-mood-background .inbox-pagination li span,
+.night-mood-background .section1 .message,
+.night-mood-background .table.input-table > thead > tr > td,
+.night-mood-background .input-table td,
+.night-mood-background .panel-white .panel-title,
+.night-mood-background .tabs nav li.tab-current a {
+	color: #fff;
+}
+.night-mood-background .exchange-section h1,
+.night-mood-background .top_nav .nav .megamenu-trigger:hover,
+.night-mood-background .top_nav .nav .dropdown > a:hover,
+.night-mood-background .megamenu-dropdown-content a:hover,
+.night-mood-background .megamenu-dropdown-content a.is-active,
+.night-mood-background .top_nav .dropdown-menu > li > a:hover,
+.night-mood-background .panel-cryptic h3,
+.night-mood-background #data-tables-markets.table.table-cryptic > thead > tr > th,
+.night-mood-background .dash1 .table.table-striped > thead > tr > th,
+.night-mood-background #trade-history.table.table-cryptic > thead > tr > th,
+.night-mood-background .cd-timeline-content .cd-read-more,
+.night-mood-background .sponsored .panel-default .panel-heading h3 a,
+.night-mood-background .sponsored .ico-listing-type, 
+.night-mood-background .sponsored .ico-listing-days-left,
+.night-mood-background .tables-live.background-yellow h2,
+.night-mood-background .tables-live.background-yellow h4,
+.night-mood-background .pricing--pema .pricing__action,
+.night-mood-background .stepper .completed .round-tab::after,
+.night-mood-background #stepper-page .stepper .nav-tabs [data-toggle="tab"],
+.night-mood-background .table > tbody > tr.special > td,
+.night-mood-background p.blog-date,
+.night-mood-background .counter-transactions-v2 .percentage h1.skill-count,
+.night-mood-background .counter-transactions-v2 .percentage p,
+.night-mood-background input.form-control-event,
+.night-mood-background .details-token h4,
+.night-mood-background .pannel-landing-page h1,
+.night-mood-background .pannel-landing-page h3,
+.night-mood-background .sponsored p.ico-listing-evolution,
+.night-mood-background .pricing-tables-live p,
+.night-mood-background .stepper .nav-tabs > li.active:last-child .round-tab::after,
+.night-mood-background .amChartsButtonSelected,
+.night-mood-background .table tbody tr.info td,
+.night-mood-background .table tbody tr.danger td,
+.night-mood-background .table tbody tr.success td,
+.night-mood-background .table tbody tr.warning td,
+.night-mood-background .table tbody tr.active td,
+.night-mood-background .megamenu-dropdown-content .megamenu-dropdown-icons li:hover .megamenu-dropdown-item h3,
+.night-mood-background li a.np-btn:hover,
+.night-mood-background .mail-option .top_nav .dropdown-menu > li:hover a,
+.night-mood-background .button-night-mode:hover {
+	color: #252525;
+}
+.night-mood-background .megamenu-dropdown-content .megamenu-dropdown-gallery,
+.night-mood-background .megamenu-dropdown-content .megamenu-dropdown-icons,
+.night-mood-background .top_nav .dropdown-menu li {
+	padding: 0;
+}
+.night-mood-background .panel-body,
+.night-mood-background .select2-container--default .select2-selection--single .select2-selection__rendered,
+.night-mood-background .panel-default .panel-heading,
+.night-mood-background footer,
+.night-mood-background .header-title-breadcrumb,
+.night-mood-background .breadcrumb,
+.night-mood-background .cd-timeline-content,
+.night-mood-background .ico-listing-box,
+.night-mood-background .cd-filter-block .list.list-3-colums li:hover,
+.night-mood-background .cd-tab-filter-wrapper,
+.night-mood-background .cd-main-content-4-colums.cd-main-content.is-fixed .cd-filter,
+.night-mood-background .panel.panel-default,
+.night-mood-background .section2 ul li:hover,
+.night-mood-background .panel-white .panel-heading,
+.night-mood-background .well.bs-component,
+.night-mood-background .jumbotron,
+.night-mood-background .list-group-item,
+.night-mood-background .panel-default .panel-footer,
+.night-mood-background .modal-content,
+.night-mood-background .pricing--pema .pricing__item,
+.night-mood-background .cd-tab-filter.faq-filter ul.cd-filters,
+.night-mood-background .pannel-landing-page .btn-default,
+.night-mood-background .cd-tab-filter ul.cd-filters,
+.night-mood-background .section1,
+.night-mood-background .section2,
+.night-mood-background .section3,
+.night-mood-background .nav-tabs > li.active > a, 
+.night-mood-background .nav-tabs > li.active,
+.night-mood-background .mail-box .sm-side .user-head,
+.night-mood-background .inbox-divider, 
+.night-mood-background .labels-info,
+.night-mood-background .sm-side h4,
+.night-mood-background .sr-input,
+.night-mood-background .inbox-head,
+.night-mood-background .lg-side .inbox-body,
+.night-mood-background .inbox-mail-nav .inbox-body,
+.night-mood-background .no-flexbox nav ul,
+.night-mood-background .tabs nav li.tab-current a,
+.night-mood-background .content-wrap section.content-current,
+.night-mood-background .tabs-style-flip nav a::after,
+.night-mood-background .grid-body.grid-body-paragraphs {
+	background-color: #353535;
+}
+.night-mood-background .table-striped > tbody > tr:nth-of-type(2n+1),
+.night-mood-background table.dataTable tbody tr,
+.night-mood-background table.dataTable.stripe tbody tr.odd,
+.night-mood-background .form-control,
+.night-mood-background .fc-event, 
+.night-mood-background .fc-event-dot,
+.night-mood-background .fc button,
+.night-mood-background ul.inbox-nav li:hover, 
+.night-mood-background ul.inbox-nav li.active, 
+.night-mood-background ul.inbox-nav li:focus,
+.night-mood-background ul.labels-info li:hover,
+.night-mood-background ul.labels-info li.active, 
+.night-mood-background ul.labels-info li:focus,
+.night-mood-background .table-inbox tr.unread td,
+.night-mood-background .table-inbox tr:hover td {
+    background-color: #3f3f3f;
+}
+.night-mood-background .table-striped > tbody > tr:nth-of-type(2n),
+.night-mood-background tr.even td,
+.night-mood-background .progress,
+.night-mood-background .highlight,
+.night-mood-background code {
+    background-color: #4f4f4f;
+}
+.night-mood-background .select2-container--default .select2-selection--single,
+.night-mood-background .dropdown-menu,
+.night-mood-background .navbar-nav .open .dropdown-menu,
+.night-mood-background .details-page .panel-body p.p-details-page,
+.night-mood-background .panel-body.ico-listing-details,
+.night-mood-background .counter-transactions .panel-body,
+.night-mood-background .counter-transactions-v2 .panel-body,
+.night-mood-background .panel-footer {
+	border: none;
+}
+.night-mood-background .megamenu-dropdown-content a, 
+.night-mood-background .megamenu-dropdown-content ul a,
+.night-mood-background .dropdown-menu-1.dropdown ul li a,
+.night-mood-background .panel-heading,
+.night-mood-background .nav_menu {
+	border-color: #353535;
+}
+.night-mood-background table, 
+.night-mood-background th,
+.night-mood-background td,
+.night-mood-background  .table > thead > tr > th {
+	border-color: #4f4f4f;
+}
+.night-mood-background .panel-body,
+.night-mood-background .ico-details,
+.night-mood-background .block-page {
+    border: 1px solid #3f3f3f;
+}
+.night-mood-background .details-token .panel-body {
+	background-color: #f9f9f9;
+}
+.night-mood-background .market-price .panel-heading{
+	background-color: #93c54b;
+}
+.night-mood-background .details-token h3{
+	color:#93c54b;
+}
+.night-mood-background .sponsored .panel-body {
+	background-color: #fff3b2;
+}
+ul.cryptic-pagination.pagination li a,
+.night-mood-background .counter-transactions .panel-body,
+.night-mood-background .counter-transactions-v2 .panel-body,
+.night-mood-background .tabs.tabs-style-linemove nav li.tab-current a {
+	background-color: transparent;
+}
+.members-activity.panel-info > .panel-heading{
+	background-color: #29abe0;
+}
+.members-activity.panel-success > .panel-heading{
+	background-color: #93c54b;
+}
+.members-activity.panel-warning > .panel-heading{
+	background-color: #f47c3c;
+}
+.night-mood-background .stepper .nav-tabs > li:last-child::after {
+	display: none;
+}
+.night-mood-background  .table > thead > tr > th {
+	border-bottom: none; 
+}
+.night-mood-background .table > tbody > tr > th,
+.night-mood-background .table > tbody > tr > td {
+	border-top: none;
+}
+.night-mood-background .cd-timeline-img {
+    box-shadow: 0 0 0 4px #4f4f4f, inset 0 2px 0 rgba(53, 53, 53, 0.08), 0 3px 0 4px rgba(53, 53, 53, 0.05);
+}
+.night-mood-background .cd-timeline-content::before {
+	border-left-color: #353535; 
+}
+.night-mood-background .cd-timeline-block:nth-child(2n) .cd-timeline-content::before{
+	border-right-color: #353535;
+}
+.tables-top-gainers-losers table thead tr th {
+    border-bottom: none;
+}
+.night-mood-background .amcharts-legend-label tspan,
+.night-mood-background .amcharts-legend-value,
+.night-mood-background .amcharts-pie-label tspan,
+.night-mood-background .amcharts-chart-div text,
+.night-mood-background .amChartsLegend.amcharts-legend-div text{
+	fill: #fff;
+}
+.night-mood-background .highcharts-background,
+.night-mood-background .highcharts-area {
+	fill: #353535;
+}
+.night-mood-background input.amChartsInputField.amcharts-start-date-input,
+.night-mood-background input.amChartsInputField.amcharts-end-date-input,
+.night-mood-background .amChartsButton.amcharts-period-input {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.amChartsButtonSelected.amcharts-period-input-selected {
+	background-color: #fff !important;
+	color: #252525 !important;
+}
+.night-mood-background .cd-tab-filter a.selected {
+	color: #93c54b;
+}
+.night-mood-background .member01-content-inside .content-div-content,
+.night-mood-background .memeber01-img-holder,
+.night-mood-background .section1,
+.night-mood-background .section2,
+.night-mood-background .form-control,
+.night-mood-background .tab-content,
+.night-mood-background .list-group-item,
+.night-mood-background .modal-content,
+.night-mood-background .modal-header,
+.night-mood-background .modal-footer,
+.night-mood-background .nav-tabs > li.active > a,
+.night-mood-background .nav-tabs,
+.night-mood-background .inbox-divider, .labels-info {
+    border-color: rgba(204,204,204,0.3);
+}
+.night-mood-background .form-control { 
+	color: #7f7f7f;
+	font-size: 18px;
+}
+.night-mood-background .nav-tabs > li.active > a {
+	border-bottom: 0px;
+}
+.night-mood-background .nav-tabs > li.disabled > a:hover,
+.night-mood-background .pager .disabled > a: {
+    background-color: #f1f1f1;
+    color: #bababa;
+}
+.night-mood-background .nav > li.disabled > a,
+.night-mood-background .pager .disabled > a {
+    color: #98978b;
+}
+.night-mood-background .top_nav .navbar-right > li > a:hover i {
+	color: #ffd500;
+}
+input[type="date"]::-webkit-datetime-edit { background-color: #252525}
+.night-mood-background .mail-option .nav_menu {
+	background-color: transparent;
+}
+.night-mood-background .tabs.tabs-style-fillup .cc.ETH {
+    color: #4f4f4f;
+}
+.night-mood-background .tabs.tabs-style-fillup .cc.ETH:hover {
+    color: #74777b;
+}
+.night-mood-background .panel-body.market-compare-value {
+	border-top: 0px;
+	border-right: 0px;
+}
+.night-mood-background .content-current .panel-heading {
+	border-bottom: 0px;
+}

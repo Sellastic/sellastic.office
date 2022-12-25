@@ -104,6 +104,7 @@ celerybeat.pid
 # Environments
 .idea
 home/migrations/
+static/
 .env
 .venv
 env/

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+    <link rel="manifest" href="{% static 'images/site.webmanifest' %}">
+
+    <title>{{ page_title }}</title>
+
+    <link href="{% static 'plugins/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'fonts/cryptocoins.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/simple-line-icons.css' %}" rel="stylesheet">
+
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome-animation.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'plugins/select2/select2.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/custom.css' %}" rel="stylesheet">
+    <link id="ui-current-skin" href="{% static 'css/skin-colors/skin-yellow.css' %}" rel="stylesheet">
+    <link href="{% static 'css/media.css' %}" rel="stylesheet">
+
+    <link href="{% static 'plugins/rickshaw/rickshaw.min.css' %}" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+</head>
+<body class="nav-md preloader-off developer-mode">
+<div class="pace-cover"></div>
+<div id="st-container" class="st-container st-effect">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="scroll-view">
+                    <div class="navbar nav_title">
+                        <h1 class="logo_wrapper">
+                            <a href="{% url 'landing' %}" class="site_logo">
+                                <img class="logo" src="{% static 'images/logo.png' %}" alt="Sellastic Logo">
+                                <span class="logo-text">Office {{ version }}</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>General</h3>
+                            <div class="clearfix"></div>
+                            <ul class="nav side-menu">
+                                <li class="active">
+                                    <a><i class="icon-chart icons"></i> <span>Reports <span class="label label-danger">Hot</span></span><span
+                                        class="fa fa-angle-down"></span></a>
+                                    <ul class="nav child_menu" style="display:block">
+                                        <li>
+                                            <a href="{% url 'landing' %}"><span>Transactions</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'landing' %}"><span>Payments</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="{% url 'landing' %}"><span>Discounts</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="icon-settings icons" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" id="btnFullscreen" data-placement="top" title="FullScreen">
+                            <span class="icon-size-fullscreen icons" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="icon-eye icons" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="{% url 'landing' %}">
+                            <span class="icon-power icons" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
+                               aria-expanded="false">
+                                <img src="{% static 'images/profile-pic.jpg' %}" alt="">
+                            </a>
+                            <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                <li><a href="javascript:;"> Profile</a></li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="badge bg-red pull-right">50%</span>
+                                        <span>Settings</span>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:;">Help</a></li>
+                                <li><a href="javascript:;"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle info-number faa-horizontal"
+                               data-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-envelope faa-horizontal animated"></i>
+                                <span class="badge faa-horizontal animated">3</span>
+                            </a>
+                            <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                <li>
+                                    <a>
+                                        <span class="image">
+                                            <img src="{% static 'images/profile-pic.jpg' %}"
+                                                 alt="Profile Image"/>
+                                        </span>
+                                        <span>
+                                            <span>Ferhat Mousavi</span>
+                                            <span class="time">3 mins ago</span>
+                                        </span>
+                                        <span class="message">
+                                            New version updates...
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="text-center">
+                                        <a>
+                                            <strong>See All Alerts</strong>
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="search-wrap">
+                            <a href="javascript:;" id="btn-search" class="search-nav">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="language">
+                            <a href="javascript:;" class="lang-swich dropdown-toggle" data-toggle="dropdown"
+                               aria-expanded="false">
+                                <img src="{% static 'images/united-kingdom.svg' %}" alt="uk">
+                            </a>
+                            <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                <li><a href="javascript:;"><img src="{% static 'images/france.svg' %}"
+                                                                alt="fr"><span>France</span></a></li>
+                                <li><a href="javascript:;"><img src="{% static 'images/germany.svg' %}"
+                                                                alt="de"><span>Germany</span></a></li>
+                                <li><a href="javascript:;"><img src="{% static 'images/italy.svg' %}"
+                                                                alt="it"><span>Italy</span></a></li>
+                                <li><a href="javascript:;"><img src="{% static 'images/spain.svg' %}"
+                                                                alt="es"><span>Spain</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            {% block page_content %}
+            {% endblock %}
+
+            <a href="#" class="scrollToTop"><i class="fa fa-chevron-up text-white" aria-hidden="true"></i></a>
+            <!-- PAGE FOOTER -->
+            <footer>
+                <div class="pull-right">
+                    Sellastic Office by <a
+                        href="https://sellastic.dev">Sellastic DEV</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="search search-main">
+        <div id="btn-search-close" class="btn btn--search-close" aria-label="Close search form">
+            <i class="fa fa-times"></i>
+        </div>
+        <form class="search__form" action="search.html">
+            <input class="search__input" name="search" type="search" placeholder="Anything you want to search..."
+                   autocapitalize="off" spellcheck="false"/>
+            <span class="search__info">Hit enter to search or ESC to close</span>
+        </form>
+    </div>
+    <!-- JS SCRIPTS -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/jquery.scrollbar.min.js' %}"></script>
+    <script src="{% static 'plugins/modernizr/modernizr.custom.js' %}"></script>
+    <script src="{% static 'plugins/classie/classie.js' %}"></script>
+    <script src="{% static 'plugins/bootstrap/bootstrap.min.js' %}"></script>
+    <script src="{% static 'plugins/select2/select2.min.js' %}"></script>
+    <script src="{% static 'plugins/highcharts/highcharts.js' %}"></script>
+    <script src="{% static 'plugins/highcharts/exporting.js' %}"></script>
+
+    <script src="{% static 'js/charts.js' %}"></script>
+    <script src="{% static 'plugins/amcharts/amcharts.js' %}"></script>
+    <script src="{% static 'plugins/amcharts/depthChart/serial.js' %}"></script>
+    <script src="{% static 'plugins/amcharts/depthChart/export.min.js' %}"></script>
+    <script src="{% static 'plugins/amcharts/depthChart/light.js' %}"></script>
+    <script src="{% static 'js/charts-amcharts.js' %}"></script>
+
+    <script src="{% static 'js/custom.min.js' %}"></script>
+    <script src="{% static 'js/preloader.min.js' %}"></script>
+</div>
+</body>
+</html>
