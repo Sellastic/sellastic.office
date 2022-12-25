@@ -4,9 +4,9 @@
 
 # sellastic.office
 
-### Open Source Touch Screen Point-of-Sale Office Backend Application
+## Open Source Touch Screen Point-of-Sale Office Backend Application
 
-#### Integrated Inventory Management
+### Integrated Inventory Management
 
 Real-time control and accurate forecasts to manage procurements.
 Sellastic Office application automatically inputs any transaction from the POS in the store. You can see the stock status of the products in real time without wasting time. You need to easily set-up stock for your e-commerce and become a truly omnichannel business with no headaches.
