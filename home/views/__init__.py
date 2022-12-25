@@ -1,1 +1,2 @@
-from .landing import landing_view
+from .landing import *
+from .store import *
